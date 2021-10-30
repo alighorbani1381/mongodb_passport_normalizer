@@ -1,0 +1,54 @@
+{
+    "name": "alighorbani/passport-normalizer-monog",
+    "description": "Fixed the All References from Laravel Default Eloquent into jenssegers/laravel-mongodb driver",
+    "keywords": [
+        "laravel-passport",
+        "laravel-passport-mongodb"
+        "jwt-passport",
+        "jwt-mongodb",
+    ],
+    "homepage": "https://github.com/alighorbani1381/mongodb_passport_normalizer",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ali",
+            "email": "alighorbani20002@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^7.3|8.0.*",
+        "imanghafoori/php-token-analyzer": "0.*",
+        "jenssegers/mongodb": "^3.8"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alighorbani\\PassportForMongo\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alighorbani\\PassportForMongo\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alighorbani\\PassportForMongo\\PassportNormalizerServiceProvider"
+            ]
+        }
+    }
+}
