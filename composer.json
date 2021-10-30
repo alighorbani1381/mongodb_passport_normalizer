@@ -5,7 +5,7 @@
         "laravel-passport",
         "laravel-passport-mongodb"
         "jwt-passport",
-        "jwt-mongodb",
+        "jwt-mongodb"
     ],
     "homepage": "https://github.com/alighorbani1381/mongodb_passport_normalizer",
     "license": "MIT",
