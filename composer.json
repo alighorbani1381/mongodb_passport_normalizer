@@ -3,7 +3,7 @@
     "description": "Fixed the All References from Laravel Default Eloquent into jenssegers/laravel-mongodb driver",
     "keywords": [
         "laravel-passport",
-        "laravel-passport-mongodb"
+        "laravel-passport-mongodb",
         "jwt-passport",
         "jwt-mongodb"
     ],
